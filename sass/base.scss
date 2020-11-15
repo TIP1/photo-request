@@ -1,0 +1,81 @@
+@font-face {
+	font-family: 'Circe';
+	src: url('../fonts/CRC75.eot');
+	src: local('☺'), url('../fonts/CRC75.woff') format('woff'), url('../fonts/CRC75.ttf') format('truetype'), url('../fonts/CRC75.svg') format('svg');
+	font-weight: 800;
+	font-style: 'Bold';
+}
+
+@font-face {
+	font-family: 'Circe';
+	src: url('../fonts/CRC65.eot');
+	src: local('☺'), url('../fonts/CRC65.woff') format('woff'), url('../fonts/CRC65.ttf') format('truetype'), url('../fonts/CRC65.svg') format('svg');
+	font-weight: 700;
+	font-style: 'Bold';
+}
+
+@font-face {
+	font-family: 'Circe';
+	src: url('../fonts/CRC55.eot');
+	src: local('☺'), url('../fonts/CRC55.woff') format('woff'), url('../fonts/CRC55.ttf') format('truetype'), url('../fonts/CRC55.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circe';
+	src: url('../fonts/CRC35.eot');
+	src: local('☺'), url('../fonts/CRC35.woff') format('woff'), url('../fonts/CRC35.ttf') format('truetype'), url('../fonts/CRC35.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FuturaPT'; /*ExtraBold */
+	src: url('../fonts/FuturaPTExtraBold.eot');
+	src: local('☺'), url('../fonts/FuturaPTExtraBold.woff') format('woff'), url('../fonts/FuturaPTExtraBold.ttf') format('truetype'), url('../fonts/FuturaPTExtraBold.svg') format('svg');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FuturaPT';
+	src: url('../fonts/FuturaPT-Light.eot');
+	src: local('☺'), url('../fonts/FuturaPT-Light.woff') format('woff'), url('../fonts/FuturaPT-Light.ttf') format('truetype'), url('../fonts/FuturaPT-Light.svg') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FuturaPTCond';
+	src: url('../fonts/FuturaPTCond-ExtraBold.eot');
+	src: local('☺'), url('../fonts/FuturaPTCond-ExtraBold.woff') format('woff'), url('../fonts/FuturaPTCond-ExtraBold.ttf') format('truetype'), url('../fonts/FuturaPTCond-ExtraBold.svg') format('svg');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FuturaPT-Bold';
+	src: url('../fonts/FuturaPT-Bold.eot');
+	src: local('☺'), url('../fonts/FuturaPT-Bold.woff') format('woff'), url('../fonts/FuturaPT-Bold.ttf') format('truetype'), url('../fonts/FuturaPT-Bold.svg') format('svg');
+	font-weight: 800;
+	font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+	border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
