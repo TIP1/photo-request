@@ -289,7 +289,7 @@
 .manual {
     background: url('../img/manual/backgroundmid.png');
     background-repeat: no-repeat;
-    height: 2000px;
+    height: 1447px;
     .manual-circle {
         position: relative;
         top: -190px;
@@ -340,4 +340,369 @@
             }
         }
     }
+}
+
+.second-slider {
+    background: #252525;
+    .swiper-slide {
+        height: 850px;
+        display: flex;
+        .second-slider.left {
+            margin-left: 13px;
+            margin-right: 132px;
+        }
+        .second-slider {
+            width: 656px;
+            position: relative;
+            img {
+                position: absolute;
+                top: 0;
+            }
+            >div {
+                position: absolute;
+            }
+            .second-slider__icon {
+                top: 753px;
+                left: 38px;
+            }
+            .second-slider__portfolio {
+                top: 596px;
+                left: -36px;
+                background: red;
+            }
+            .second-slider__work {
+                top: 756px;
+                left: 133px;
+            }
+            .portfolio {
+                transform: rotate(-90deg);
+            }
+            .portfolio__name {
+                @include CirceFont(800, normal, 35px, 50px);
+            }
+            .portfolio__exp {
+                @include CirceFont(400, normal, 20px, 20px);
+            }
+            .work__level {
+                @include CirceFont(400, normal, 18px, 30px);
+            }
+            .work__level-name {
+                @include CirceFont(800, normal, 24px, 30px);
+            }
+            .second-slider__text {
+                width: 217px;
+                top: 762px;
+                left: 351px;
+            }
+            .second-slider__text p {
+                @include CirceFont(400, normal, 14px, 19px);
+            }
+        }
+        .second-slider__slide-back {
+            width: 656px;
+            height: 850px;
+        }
+    }
+    .swiprer-arrows {
+        margin-top: 21px;
+        width: 1470px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        top: -1412px;
+        .swiper-button-next, .swiper-button-prev {
+            position: relative;
+            width: 13.875rem;
+            outline: none;
+            margin-top: 13px;
+            p {
+                @include CirceFont(400, normal, 18px, 27px);
+                text-transform: uppercase;
+                user-select: none;
+            }
+        }
+        .swiper-button-next p::after  {
+            position: relative;
+            content: '-';
+            color: rgba(0, 0, 0, 0);
+            background-image: url('../img/header/slider/Arrow\ 2.png');
+            background-repeat: no-repeat;
+            display: inline-block;
+            height: 1rem;
+            width: 37px;
+            top: 0.3125rem;
+            left: 15px;
+        }
+        .swiper-button-prev  {
+            width: 14.375rem;
+            left: -38px;
+        }
+        .swiper-button-next {
+            left: 30px;
+        }
+        .swiper-button-prev p::before  {
+            position: relative;
+            content: '-';
+            color: rgba(0, 0, 0, 0);
+            background-image: url('../img/header/slider/Arrow\ 1.png');
+            background-repeat: no-repeat;
+            display: inline-block;
+            height: 1rem;
+            width: 37px;
+            top: 0.3125rem;
+            right: 15px;
+        }
+        .swiprer-arrows-text {
+            @include FutureFont(800, italic, 50px, 70px);
+            color: #FFFFFF;
+            width: 1002px;
+            text-align: center;
+            margin-right: 14px;
+            word-spacing: 12px;
+        }
+    }          
+    .swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after,
+    .swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after {
+        content: '' !important;
+    }    
+    .swiper-container {
+        position: relative;
+        top: -384px;
+    }
+}
+
+.last-slider {
+    background: #252525;
+    .swiper-container {
+        top: -173px;
+    }
+    .swiprer-arrows {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        top: -226px;
+        .swiper-button-next, .swiper-button-prev {
+            position: relative;
+            width: 13.875rem;
+            outline: none;
+            margin-top: 42px;
+            p {
+                @include CirceFont(400, normal, 18px, 27px);
+                text-transform: uppercase;
+                user-select: none;
+            }
+        }
+        .swiper-button-next p::after  {
+            position: relative;
+            content: '-';
+            color: rgba(0, 0, 0, 0);
+            background-image: url('../img/header/slider/Arrow\ 2.png');
+            background-repeat: no-repeat;
+            display: inline-block;
+            height: 1rem;
+            width: 37px;
+            top: 0.3125rem;
+            left: 15px;
+        }
+        .swiper-button-prev  {
+            width: 14.375rem;
+            left: 185px;
+        }
+        .swiper-button-next {
+            left: -195px;
+        }
+        .swiper-button-prev p::before  {
+            position: relative;
+            content: '-';
+            color: rgba(0, 0, 0, 0);
+            background-image: url('../img/header/slider/Arrow\ 1.png');
+            background-repeat: no-repeat;
+            display: inline-block;
+            height: 1rem;
+            width: 37px;
+            top: 0.3125rem;
+            right: 15px;
+        }
+        .swiprer-arrows-text {
+            @include FutureFont(800, italic, 50px, 65px);
+            width: 786px;
+            text-align: center;
+            margin-right: 18px;
+            word-spacing: 12px;
+            letter-spacing: 0.05em;
+            -webkit-text-stroke: 2px #FFFFFF;
+            color: transparent;
+        }
+    }          
+    .swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after,
+    .swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after {
+        content: '' !important;
+    }
+    // .swiper-slide {
+    //     height: 446px;
+    // }
+    .container {
+        width: 100%;
+    }
+    .last-slider__wrap {
+        display: flex;
+        padding-left: 16px;
+        img {
+            margin-right: 15.5px;
+            width: 461px;
+            height: 310px;
+            padding: 71px 0 0 16px;
+        }
+        .last-slider__wrap-item {
+            background: url('../img/last-slider/image\ 24.png');
+            background-repeat: no-repeat;
+            height: 446px;
+            width: 492px;
+        }
+    }
+}
+
+.seo {
+    background: #252525;
+    display: flex;
+    .seo__left {
+        padding: 160px 0 0 235px;
+    }
+    .seo__right {
+        margin: 22px 0 0 80px;
+        padding-bottom: 148px;
+    }
+    .seo__left-pict {
+        width: 372.39px;
+        height: 371px;
+        background: url('../img/seo/Rectangle\ 21.png');
+        img {
+            position: relative;
+            top: -268px;
+            left: 206px;
+        }
+    }
+    .seo__left-title {
+        @include FutureFont(700, italic, 16px, 21px);
+        padding-top: 117px;
+        padding-left: 26px;
+        letter-spacing: -0.04em;
+    }
+    .seo__left-title.bottom {
+        padding-top: 7px;
+        span {
+            margin-left: 12px;
+        }
+    }
+    .seo__left-suptitle {
+        @include FutureFont(800, italic, 50px, 45px);
+        letter-spacing: -0.03em;
+        color: #D5AE78;
+        padding: 7px 0 0 24px;
+    }
+    .seo__left-subtitle {
+        @include FutureFont(800, italic, 50px, 50px);
+        letter-spacing: -0.03em;
+        -webkit-text-stroke: 1px#D5AE78;
+        color: transparent;
+        padding-left: 23px;
+    }
+    .seo__right {
+        .seo__right__text {
+            width: 994px;
+        }
+        .seo__right__title {
+            @include FutureFont(800, italic, 50px, 70px);
+            margin-bottom: 60px;
+        }
+        .seo__right__item {
+            @include CirceFont(400, normal, 18px, 27px);
+            margin-bottom: 26px;
+        }
+    }
+}
+
+.footer {
+    background: #131313;
+    .footer-top {
+        height: 1123px;
+    }
+    .footer-top__w-text {
+        @include FutureFont(800, italic, 90px, 115px);
+        &.top {
+            position: relative;
+            top: 140px;
+            left: 460px;
+        }
+        z-index: 1;
+        &.bottom {
+            position: relative;
+            top: -286px;
+            left: 291px;
+        }
+    } 
+    .footer-top__bananas {
+        width: 725px;
+        height: 564px;
+        position: relative;
+        top: 95px;
+        left: 374px;
+    }
+    .footer-top__redtext {
+        width: 1216px;
+        height: 327px;
+        position: relative;
+        top: -355px;
+        left: 129px;
+    }
+    .header__form__title {
+        @include CirceFont(500, normal, 22px, 33px);
+        text-transform: uppercase;
+    }
+    .header__form input {
+        background: none;
+        border-bottom: 1px solid #777777;
+        @include CirceFont(500, normal, 18px, 27px);
+        color: #fff;
+        margin-top: 42px;
+        padding-bottom: 4px;
+        width: 100%;
+        outline: none;
+    }
+    .header__form-input-tel {
+        margin-top: 42px !important;
+    }
+    .header__form input::placeholder {
+        color: #777777;
+    }
+    .header__form-btn {
+        display: block;
+        @include CirceFont(700, normal, 15px, 20px);
+        border: 1px solid #777777;
+        padding: 15px 100px;
+        text-transform: uppercase;
+        margin-top: 22px;
+        margin-left: 3px;
+        transition: 1s;
+        background: none;
+        cursor: pointer;
+        outline: none;
+    }
+    .header__form-btn:hover {
+        background: #fff;
+        color: #000;
+    }
+    .header__form {
+        display: flex;
+        position: relative;
+        top: -289px;
+        left: 375px;
+        >div {
+            width: 348px;
+        }
+    }
+    .footer-form__right {
+        margin-left: 27px;
+    }
+    
 }
