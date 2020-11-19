@@ -1,0 +1,41 @@
+@media (max-width: 120rem) { /*1920*/
+  html {
+      font-size: 16px;
+  }
+}
+
+@media (max-width: 103.75rem) { /*1660*/
+  html {
+      font-size: 14px;
+  }
+}
+
+@media (max-width: 91.25rem) { /*1460*/
+  html {
+      font-size: 12px;
+  }
+}
+
+@media (max-width: 80rem) { /*1280*/
+  html {
+      font-size: 10px;
+  }
+}
+
+@media (max-width: 72rem) { /*1152*/
+  html {
+      font-size: 9px;
+  }
+}
+
+@media (max-width: 62rem) { /*992*/
+  html {
+      font-size: 8px;
+  }
+}
+
+@media (max-width: 52rem) { /*992*/
+  html {
+      font-size: 7px;
+  }
+}
